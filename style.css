@@ -24,5 +24,6 @@ p, table{
     margin-right: 1rem;
 }
 .btn-primary{
-    float: right;
+    margin-left: 3rem;
+    margin-bottom: 0;
 }
