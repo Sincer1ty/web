@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #015293;">
+        <div class="container-lg">
+            <a class="navbar-brand" href="index.html">TRAVEL <i class="bi bi-airplane-fill"></i> PLANNER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nav-menu">
+            <ul class="navbar-nav ms-auto my-2">
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="travel.html">여행 정보</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="plan.html">계획 TIP</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="timetable.html">타임테이블</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="contact.html">문의</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <header class="vh-100 text-white d-flex flex-column justify-content-center align-items-center" style="background-image:linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(images/japan.jpg) ;">
+        <h1 class="display-3 fw-bold mb-4">타임테이블</h1>
+        <h4 class="fs-4">여행내내 하하호호~</h4>
+    </header>
+
+    <div class="container p-5">
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">여행 컨셉</th>
+                <td style="width: 40rem;"></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">여행 기간</th>
+                <td style="width: 40rem;"></td>
+              </tr>
+              <tr>
+                <th scope="row">알아둘 것</th>
+                <td style="width: 40rem;"></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <th scope="col" rowspan="4">준비물</th>
+                    <td>필수품</td>
+                    <td style="width: 40rem;"></td>
+                </tr>
+                <tr>
+                    <td scope="row">옷</td>
+                    <td style="width: 40rem;"></td>
+                </tr>
+                <tr>
+                   <td scope="row">세면도구/화장품</td>
+                    <td style="width: 40rem;"></td>
+                </tr>
+                <tr>
+                    <td scope="row">기타</td>
+                    <td style="width: 40rem;"></td>
+                </tr>
+            </tbody>
+          </table>
+
+          <table class="table table-bordered text-center">
+            <tbody>
+                <tr>
+                    <th scope="col" rowspan="2" style="width: 8rem;">날짜</th>
+                    <th scope="col" rowspan="2">장소</th>
+                    <th scope="col" rowspan="2">시간</th>
+                    <th scope="col" rowspan="2">가는 법</th>
+                    <th scope="col" rowspan="2">일정</th>
+                    <th scope="col" colspan="2">비용</th>
+                    <th scope="col" rowspan="2">체크사항</th>
+                </tr>
+                <tr>
+                    <th scope="row">$</th>
+                    <th scope="row">원</th>
+                </tr>
+                <tr>
+                   <td scope="row" rowspan="5">1일차<br>&nbsp;&nbsp;&nbsp;월&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일</td>
+                   <td style="height: 2rem;"></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                </tr>
+                <tr>
+                    <td style="height: 2rem;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="height: 2rem;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="height: 2rem;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="height: 2rem;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row" rowspan="5">2일차<br>&nbsp;&nbsp;&nbsp;월&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일</td>
+                    <td style="height: 2rem;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="height: 2rem;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="height: 2rem;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="height: 2rem;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="height: 2rem;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <p class="pt-2 mb-3">copyright <i class="bi bi-c-circle"></i> 2023 Designed by 김성희</p>
+        </div>
+    </footer>
+
+</body>
+</html>
